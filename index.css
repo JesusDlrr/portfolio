@@ -1,0 +1,29 @@
+@import-normalize;
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    background-color: #D1D1D1;
+}
+
+ul {
+    color: #000;
+    list-style: none;
+    padding: 0;
+}
+
+ul ul {
+    padding: 0px 0px 0px 20px;
+}
+
+ul > li > a {
+    color: #666;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

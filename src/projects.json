@@ -1,0 +1,57 @@
+[
+    {
+        "date": {
+            "day": 12,
+            "month": 10,
+            "year": 2019
+        },
+        "language": "C#",
+        "title": "CMD Snake",
+        "link": "https://github.com/JesusDlrr/Snake_game", 
+        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+    },
+    {
+        "date": {
+            "day": 24,
+            "month": 6,
+            "year": 2020
+        },
+        "language": "JavaScript",
+        "title": "Wireship",
+        "link": "https://github.com/JesusDlrr/Space-ship-game-", 
+        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+    },
+    {
+        "date": {
+            "day": 8,
+            "month": 6,
+            "year": 2020
+        },
+        "language": "6502 Assembly",
+        "title": "NES Pong",
+        "link": "https://github.com/JesusDlrr/NES-Pong", 
+        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+    },
+    {
+        "date": {
+            "day": 19,
+            "month": 9,
+            "year": 2020
+        },
+        "language": "JavaScript",
+        "title": "illyaBot (Discord)",
+        "link": "https://github.com/JesusDlrr/Illya-bot", 
+        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+    },
+    {
+        "date": {
+            "day": 17,
+            "month": 7,
+            "year": 2019
+        },
+        "language": "C++",
+        "title": "CMD Chat with SFML",
+        "link": "https://github.com/JesusDlrr/Shitty-SFML-chat", 
+        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+    }
+]

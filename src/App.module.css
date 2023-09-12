@@ -1,0 +1,32 @@
+.page_wrapper {
+    width: 55vw;
+    margin: 0 auto;
+
+}
+
+.content_wrapper {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 1px #888;
+}
+
+.header_marquee {
+    background-color: #000;
+    color: yellow;
+}
+
+aside {
+    border-right: dashed 1px #888;
+    padding-right: 2%;
+}
+
+main {
+    flex-grow: 1;
+    padding-left: 2%;
+}
+
+a {
+    text-decoration: none;
+}
