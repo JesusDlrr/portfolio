@@ -49,8 +49,8 @@ function App() {
           </aside>
           <main>
             <Routes>
-              <Route exact path='/' element={<Home/>}/>
-              <Route exact path='/projects/software' element={<Software/>}/>
+              <Route path='/portfolio' element={<Home/>}/>
+              <Route path='/projects/software' element={<Software/>}/>
             </Routes>
           </main>
         </div>
