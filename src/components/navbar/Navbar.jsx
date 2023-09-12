@@ -15,8 +15,8 @@ export const Navbar = () => {
                     </li>
                     <li>
                         <ul>
-                            <li className={pathname == '/' ? styles.selected : undefined}>
-                                <Link to='/'>Home page</Link>
+                            <li className={pathname == '/home' ? styles.selected : undefined}>
+                                <Link to='/home'>Home page</Link>
                             </li>
                             <li>
                                 My projects
@@ -26,7 +26,9 @@ export const Navbar = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className={pathname == '/about' ? styles.selected : undefined}><a href="/portfolio/about">About me</a></li>
+                            <li className={pathname == '/about' ? styles.selected : undefined}>
+                                <Link to='/about'>About</Link>
+                            </li>
                         </ul>
                     </li>
                 </ul>

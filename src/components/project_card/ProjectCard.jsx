@@ -17,7 +17,7 @@ export const ProjectCard = ({title, description, date, link, language}) => {
                 </div>
             </header>
             <div className={styles.card_body}>
-                <img className={styles.thumbnail} src="/images/no_connection.png"/>
+                <img className={styles.thumbnail} src="./images/no_connection.png"/>
                 <p className={styles.project_description}>{HTMLReactParser(description)}</p>
             </div>
         </article>

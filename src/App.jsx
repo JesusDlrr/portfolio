@@ -49,7 +49,7 @@ function App() {
           </aside>
           <main>
             <Routes>
-              <Route path='/portfolio' element={<Home/>}/>
+              <Route path='/home' element={<Home/>}/>
               <Route path='/projects/software' element={<Software/>}/>
             </Routes>
           </main>
