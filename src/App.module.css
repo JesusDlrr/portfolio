@@ -1,3 +1,5 @@
+@import './normalize.css';
+
 .page_wrapper {
     width: 55vw;
     margin: 0 auto;
@@ -20,6 +22,21 @@
 aside {
     border-right: dashed 1px #888;
     padding-right: 2%;
+}
+
+.person {
+    display: flex;
+
+    h2 {
+        margin: 0px;
+    }
+
+    img {
+        width: 200px;
+        aspect-ratio: 1;
+        margin-right: 15px;
+        object-fit: cover;
+    }
 }
 
 main {

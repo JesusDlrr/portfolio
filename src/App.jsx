@@ -7,12 +7,34 @@ import projects from './projects.json';
 import {Route, Routes} from 'react-router-dom';
 
 const Home = () =>{
+  let sorted_projects = projects.sort((a, b)=>{
+    let a_date = new Date(a.date.year, a.date.month-1, a.date.day);
+    let b_date = new Date(b.date.year, b.date.month-1, b.date.day);
+    return a_date < b_date;
+  });
+
   return(
     <>
-      <h2>Jesús de la Rosa</h2>
-      {/* <p>Software engineer, photographer and maker of things. Based in London, England. <a href="/about">More about me</a>.</p> */}
+      <div className={styles.person}>
+        <img src="./images/spamton.gif" alt="" srcset="" />
+        <span>
+          <h2>Hi! I'm Jesús</h2>
+          <p>A  programmer who loves old stuff & creating new things.</p>
+          <p><a href="/about">More about me</a></p>
+        </span>
+      </div>
 
       <h2>Latest projects</h2>
+      {    
+        sorted_projects.map((e, i) => {
+          if(i < 3)
+          {
+            return(<ProjectCard title={e.title} description={e.description} date={e.date} image={e.image} link={e.link} language={e.language}/>);
+          }else{
+            return;
+          }
+        })
+      }
     </>
   );
 }
@@ -26,7 +48,7 @@ const Software = () =>{
 
   return(
     sorted_projects.map((e) => {
-      return(<ProjectCard title={e.title} description={e.description} date={e.date} link={e.link} language={e.language}/>);
+      return(<ProjectCard title={e.title} description={e.description} date={e.date} image={e.image} link={e.link} language={e.language}/>);
     })
   );
 }

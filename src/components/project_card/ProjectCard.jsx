@@ -2,7 +2,7 @@ import React from "react";
 import styles from './ProjectCard.module.css';
 import HTMLReactParser from "html-react-parser";
 
-export const ProjectCard = ({title, description, date, link, language}) => {
+export const ProjectCard = ({title, description, date, image, link, language}) => {
     const project_date = new Date();
     project_date.setMonth(date.month-1);
 
@@ -13,12 +13,12 @@ export const ProjectCard = ({title, description, date, link, language}) => {
                 <div className={styles.project_info}>
                     <p className={styles.header_tag}>Realease: {project_date.toLocaleString("en-US", {month: "short"})} {date.day+getOrdinal(date.day)}, {date.year}</p>
                     <p className={styles.header_tag}>Written on: <a href="#">{language}</a></p>
-                    {/* <p className={styles.header_tag}>Engine: <a href="https://www.yoyogames.com/en/gamemaker" target="_blank">GameMaker Studio 2</a></p> */}
                 </div>
             </header>
             <div className={styles.card_body}>
-                <img className={styles.thumbnail} src="./images/no_connection.png"/>
-                <p className={styles.project_description}>{HTMLReactParser(description)}</p>
+              {/* <p>kkrrrrrrrrrrrrrrrrrr rrrrrrrrsssss ssssssss</p> */}
+              <img className={styles.thumbnail} src={"./images/"+image}/>
+              <p className={styles.project_description}>{HTMLReactParser(description)}</p>
             </div>
         </article>
     );
