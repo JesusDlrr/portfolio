@@ -1,9 +1,5 @@
 @import '../../vars.css';
 
-.project_card {
-    /* border: solid 1px black; */
-}
-
 .project_card:not(:first-child) {
     margin-top: 50px;
 }
@@ -48,14 +44,7 @@
 
 .card_body {
     display: flex;
-    /* overflow: hidden; */
     margin-left: 15px;
-
-    border: solid 1px black;
-
-    * {
-        border: solid 1px black;
-    }
 }
 
 .project_description {

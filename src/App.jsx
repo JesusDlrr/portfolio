@@ -64,7 +64,12 @@ function App() {
         <div className={styles.header_marquee}>
         </div>
         <Header/>
-        <PageDescription/>
+        <Routes>
+          <Route path='/home' element={<PageDescription description={"Welcome to my portfolio!"}/>}/>
+          <Route path='/projects/software' element={<PageDescription description={"Projects made with various technologies."}/>}/>
+          <Route path='/about' element={<PageDescription description={"More about me"}/>}/>
+        </Routes>
+        
         <div className={styles.content_wrapper}>
           <aside>
             <Navbar/>
