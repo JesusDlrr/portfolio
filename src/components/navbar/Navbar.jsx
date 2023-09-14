@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     const {pathname} = useLocation();
-    const [is_expanded, setExpanded] = useState(new Boolean(false));
+    const [is_expanded, setExpanded] = useState(new Boolean(true));
 
     return (
         <>
