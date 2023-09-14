@@ -2,6 +2,7 @@ nav {
     font-family: 'Times New Roman', Times, serif;
     line-height: 200%;
     font-size: 17px;
+    background-color: white;
 }
 
 .selected {
@@ -12,15 +13,18 @@ nav {
 @media (max-width: 940px) { /* Tablets */
     nav {
         width: 100%;
+    
+        ul {
+            padding: 0;
+        }
     }
 }
 
-@media screen and (max-width: 640px) { /* Smartphones */
+/* @media screen and (max-width: 640px) { Smartphones
     nav {
-        background: red;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
         width: 100vw;
     }
 
@@ -38,4 +42,4 @@ nav {
     nav li:not(:last-child) {
         border-right: dashed 1px rgba(255, 255, 255, 0.1);
     }
-}
+} */

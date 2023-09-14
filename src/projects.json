@@ -9,7 +9,7 @@
         "title": "CMD Snake",
         "link": "https://github.com/JesusDlrr/Snake_game", 
         "image": "cmd_snake.png",
-        "description": "NO CONNECTION GameMaker Studio 2."
+        "description": "A small snake game made with c#. It features 3 difficulty modes and snake money instead of snake food."
     },
     {
         "date": {
@@ -21,7 +21,7 @@
         "title": "Wireship",
         "link": "https://github.com/JesusDlrr/Space-ship-game-", 
         "image": "wireship.png",
-        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+        "description": "A 2D space shooter made with JavaScript, using vectors to dynamically draw objects on HTML canvas and create procedural asteroid shapes."
     },
     {
         "date": {
@@ -29,11 +29,11 @@
             "month": 6,
             "year": 2020
         },
-        "language": "6502 Assembly",
+        "language": "NES 6502 Assembly",
         "title": "NES Pong",
         "link": "https://github.com/JesusDlrr/NES-Pong", 
         "image": "fceux.png",
-        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+        "description": "A simple pong game made with pure NES 6502 assembly... It features a two player gameplay and a simple audio engine which plays a tune I made and exported with <a href='https://famitracker.org/' about='_blank'>FamiTracker</a>."
     },
     {
         "date": {
@@ -45,7 +45,7 @@
         "title": "illyaBot (Discord)",
         "link": "https://github.com/JesusDlrr/Illya-bot", 
         "image": "discord.jpg",
-        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+        "description": "A very very (very) simple <a href='https://discord.com' target='_blank'>Discord</a> bot made using the Discord bot API for JavaScript and deployed on <a href='https://www.heroku.com/' target='_blank'>Heroku</a>."
     },
     {
         "date": {
@@ -57,6 +57,6 @@
         "title": "CMD Chat with SFML",
         "link": "https://github.com/JesusDlrr/Shitty-SFML-chat", 
         "image": "cmd_chat.png",
-        "description": "NO CONNECTION is a game created during the <a href='https://gamejolt.com/c/gamemaker/ogxgj' target='_blank'>OperaGx Game Jam</a>. Featuring an arcade-like gameplay and a 2 player co-op mode, It was designed to run on web browsers and was entirely made with GameMaker Studio 2, using It's HTML export module."
+        "description": "A small chat application made using the SFML socket functionallity. The same application can be set as server or client and it features... no user interface..."
     }
 ]

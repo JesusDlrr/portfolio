@@ -1,0 +1,12 @@
+.w {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: groove 2px lightgray;
+
+    img {
+        width: 21px;
+        height: 21px;
+        margin-right: 10px;
+    }
+}

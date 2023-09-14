@@ -6,7 +6,7 @@ export const PageDescription = ({description}) => {
         <>
             <div className={styles.description_container}>
                 {description}
-                <span className={styles.blc}></span>
+                {/* <span className={styles.blc}></span> */}
             </div>
         </>
     );

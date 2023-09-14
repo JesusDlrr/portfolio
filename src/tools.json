@@ -1,0 +1,52 @@
+[
+    {
+        "name": "HTML",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "link": ""
+    },
+    {
+        "name": "CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+        "link": ""
+    },
+    {
+        "name": "JavaScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "link": ""
+    },
+    {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        "link": ""
+    },
+    {
+        "name": "PHP",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+        "link": ""
+    },
+    {
+        "name": "NodeJS",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+        "link": ""
+    },
+    {
+        "name": "MySQL",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
+        "link": ""
+    },
+    {
+        "name": "MongoDB",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+        "link": ""
+    },
+    {
+        "name": "C#",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
+        "link": ""
+    },
+    {
+        "name": "C++",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+        "link": ""
+    }
+]

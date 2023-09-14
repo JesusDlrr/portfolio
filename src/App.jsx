@@ -3,7 +3,9 @@ import { Header } from './components/header/Header';
 import { Navbar } from './components/navbar/Navbar';
 import { PageDescription } from './components/page_description/PageDescription';
 import { ProjectCard } from './components/project_card/ProjectCard';
+import { Tool } from './components/tool/Tool';
 import projects from './projects.json';
+import tools from './tools.json';
 import {Route, Routes} from 'react-router-dom';
 
 const Home = () =>{
@@ -16,14 +18,24 @@ const Home = () =>{
   return(
     <>
       <div className={styles.person}>
-        <img src="./images/spamton.gif" alt="" srcset="" />
+        <img src="./images/me.png" alt="" srcset="" />
         <span>
           <h2>Hi! I'm Jesús</h2>
-          <p>A  programmer who loves old stuff & creating new things.</p>
+          <p><i>A  programmer who loves old stuff & creating new things.</i></p>
           <p><a href="/about">More about me</a></p>
         </span>
       </div>
 
+      <h2>Technologies and Tools</h2>
+      <article>
+        <span className={styles.ww}>
+          {
+            tools.map((tool)=>{
+              return(<Tool name={tool.name} logo={tool.logo}/>);
+            })
+          }
+        </span>
+      </article>
       <h2>Latest projects</h2>
       {    
         sorted_projects.map((e, i) => {
