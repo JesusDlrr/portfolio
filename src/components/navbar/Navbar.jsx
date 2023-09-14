@@ -27,7 +27,7 @@ export const Navbar = () => {
                                 </ul>
                             </li>
                             <li className={pathname == '/about' ? styles.selected : undefined}>
-                                <Link to='/about'>About</Link>
+                                {/* <Link to='/about'>About</Link> */}
                             </li>
                         </ul>
                     </li>

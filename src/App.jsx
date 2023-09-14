@@ -22,7 +22,7 @@ const Home = () =>{
         <span>
           <h2>Hi! I'm Jesús</h2>
           <p><i>A  programmer who loves old stuff & creating new things.</i></p>
-          <p><a href="/about">More about me</a></p>
+          {/* <p><a href="/about">More about me</a></p> */}
         </span>
       </div>
 
