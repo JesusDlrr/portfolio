@@ -24,21 +24,21 @@ nav {
     text-decoration: underline;
 }
 
-@keyframes fade-out {
+@keyframes collapse {
     from {
-        max-height: 500px;
+        max-height: 300px;
     }   
     to {
         max-height: 0px;
     }
 } 
 
-@keyframes fade-in {
+@keyframes expand {
     from {
         max-height: 0px;
     }
     to {
-        max-height: 200px;
+        max-height: 300px;
     }
 } 
 
@@ -52,15 +52,15 @@ nav {
 
         .index_container {
             overflow: hidden;
-            max-height: 500px;
+            max-height: 0px;
         }
 
         .index_container[expanded='true'] {
-            animation: fade-out 0.5s forwards;
+            animation: expand 0.9s forwards;
         }
 
         .index_container[expanded='false'] {
-            animation: fade-in 0.5s forwards;
+            animation: collapse 0.5s forwards;
         }
 
         .toggle_button {
