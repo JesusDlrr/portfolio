@@ -25,10 +25,9 @@ const Home = () =>{
           {/* <p><a href="/about">More about me</a></p> */}
         </span>
       </div>
-
-      <h2>Technologies and Tools</h2>
+      <h2 className={styles.section_header}>Technologies and Tools</h2>
       <article>
-        <span className={styles.ww}>
+        <span className={styles.tools_container}>
           {
             tools.map((tool)=>{
               return(<Tool name={tool.name} logo={tool.logo}/>);
@@ -36,7 +35,7 @@ const Home = () =>{
           }
         </span>
       </article>
-      <h2>Latest projects</h2>
+      <h2 className={styles.section_header}>Latest projects</h2>
       {    
         sorted_projects.map((e, i) => {
           if(i < 3)

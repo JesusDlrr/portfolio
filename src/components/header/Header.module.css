@@ -42,3 +42,9 @@
     background-image: url("/images/arrow.png");
     background-size: 100%;
 }
+
+@media (max-width: 940px) { /* Tablets */
+    .section_info > h1 {
+        font-size: 20px;
+    }
+}

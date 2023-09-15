@@ -15,10 +15,16 @@
     box-shadow: 0px 5px 5px 1px #888;
 }
 
-.ww {
+.tools_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+}
+
+.section_header {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: dashed 1px gray;
 }
 
 @media (max-width: 940px) { /* Tablets */
@@ -28,6 +34,10 @@
 
     .content_wrapper {
         display: block;
+    }
+
+    .tools_container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
